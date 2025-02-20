@@ -10,9 +10,15 @@ def pengurangan(a,b):
 	total = a-b
 	return(total)
 
+def pembagian(a,b):
+	total = a/b
+	return(total)
+
 def main():
 	
 	print(penambahan(10,5))
 	print(pengurangan(1,2))
+	print(pembagian(6,3))
+
 
 main()
